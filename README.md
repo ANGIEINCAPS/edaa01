@@ -23,3 +23,14 @@ b. 10 rader för 10 unika nummer. Nej, man kan inte garantera att ett hashset sk
 c. `Map<String, Integer> m = new HashMap<String, Integer>();`
 
 d. Man använder sig av `containsKey()` för att undersöka om en nyckel finns i en given map.
+
+### D13
+HashMap: 378 ms
+TreeMap: 395 ms
+
+### D14
+- HashMap är en mer specifik implementering av interface:et Map. Exempelvis kan man spara null som nycklar och värden.
+Om man läser vidare står det att hashfunktionen i HashMap sprider element jämt mellan alla hinkar och ger en jämn tidscomplex O(1) vid insättning och hämtning.
+- HashMap har en obestämd sortering av elementen medan TreeMap är naturligt sorterad.
+- Det har varit användbart med map i just denna laboration där vi sparar ord med ett spefikt anhängande nummer.
+- Eftersom att HashMap element har en obestämt följd är Comparators funktion att kunna sortera dem. Vi har implementerat Comparator genom att själv beskriva på vilket sätt den ska jämföra värdet av två element. I första hand värdet av value, och i andra hand värdet av key (alfabetiskt). 
