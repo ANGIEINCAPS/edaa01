@@ -34,3 +34,14 @@ Om man läser vidare står det att hashfunktionen i HashMap sprider element jäm
 - HashMap har en obestämd sortering av elementen medan TreeMap är naturligt sorterad.
 - Det har varit användbart med map i just denna laboration där vi sparar ord med ett spefikt anhängande nummer.
 - Eftersom att HashMap element har en obestämt följd är Comparators funktion att kunna sortera dem. Vi har implementerat Comparator genom att själv beskriva på vilket sätt den ska jämföra värdet av två element. I första hand värdet av value, och i andra hand värdet av key (alfabetiskt). 
+
+## lab3
+### F2
+`keySet()`
+### F3
+`list.sort((e1, e2) -> e2.getValue().compareTo(e1.getValue)));`
+### F4
+- `actionListener()`
+- `getText()`
+- `add(Component comp)`
+- `setSelectedIndex(int index)`
