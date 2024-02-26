@@ -45,3 +45,12 @@ Om man läser vidare står det att hashfunktionen i HashMap sprider element jäm
 - `getText()`
 - `add(Component comp)`
 - `setSelectedIndex(int index)`
+
+## lab4
+### F2
+- `null`
+- `QueueNode<E> n = first;`
+- `E e = first.element;`
+### F3
+- `assertEquals`
+- `assertFalse`
