@@ -54,3 +54,8 @@ Om man läser vidare står det att hashfunktionen i HashMap sprider element jäm
 ### F3
 - `assertEquals`
 - `assertFalse`
+
+## lab5
+### F2
+- 
+- 810 enheter
